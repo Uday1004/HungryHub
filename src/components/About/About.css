@@ -1,0 +1,74 @@
+.img-about{
+    width: 28rem;
+    height: 7rem;
+
+}
+.title{
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 57px;
+}
+.wave{
+    
+        animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+        animation-duration: 2.5s;        /* Change to speed up or slow down */
+        animation-iteration-count: infinite;  /* Never stop waving :) */
+        transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+        display: inline-block;
+
+        
+    }
+    @keyframes wave-animation {
+        0% { transform: rotate( 0.0deg) }
+       10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+       20% { transform: rotate(-8.0deg) }
+       30% { transform: rotate(14.0deg) }
+       40% { transform: rotate(-4.0deg) }
+       50% { transform: rotate(10.0deg) }
+       60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+      100% { transform: rotate( 0.0deg) }
+    }
+.dev-logo{
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: auto;
+    height: 100%;
+
+}
+.mail{
+    text-decoration: none;
+    /* border: 1px solid blue; */
+    color:black;
+    /* width: 100px;
+    height: 100px; */
+    /* display: block; */
+}
+.cup{
+    height: 20rem;
+    margin-top: 2.5rem;
+    width: 19rem;
+
+}
+@media only screen and (max-width:420px){
+    .cup{
+        height: 276px;
+        margin-top: 2.5rem;
+        width: 290px;
+    }
+}
+   
+    

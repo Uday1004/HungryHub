@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Libre+Baskerville&family=Sacramento&family=Taviraj&display=swap');
+.box{
+    height: auto;
+    width: 120%;
+    display: block;
+    margin: auto;
+    /* box-shadow: 2px 2px 2px 2px rgb(98, 94, 94); */
+    margin-bottom: 5px;
+}
+
+.box .rowbox{
+    width: 80%;
+}
+
+.rowbox .img-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* .box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+} */
+
+.col-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(245, 16, 16);
+    position: relative;
+    top: 10px;
+    left:50px;
+    background: rgb(30, 28, 28);
+}
+   
+.swiper-button-prev
+ {
+
+  color: #2731f9 !important;
+  position: absolute;
+  left:-2px !important ;
+  top: 100px !important;
+  height: 100px !important;
+   
+  background-color: rgb(35, 198, 152);
+  
+}
+
+.swiper-button-next
+ {
+
+  color: #2e25e5 !important;
+  position: absolute;
+  right:-2px !important ;
+  top: 100px !important;
+  height: 100px !important;
+   
+  background-color: rgb(35, 198, 152);
+  
+}
+.img{
+    height: 19rem;
+    width: 21rem;
+    object-fit: contain;
+    cursor:default;
+    margin-left: 11rem;
+}
+.order-btn{
+    margin-bottom: 2rem;
+    background-color: rgb(139, 72, 24) !important;
+    border: 1px solid white !important;
+    font-weight: bold !important;
+}
+.order-btn:hover{
+    box-shadow: 0 5px 15px gray;
+    background: transparent !important;
+    color: black !important;
+    font-weight: bold;
+}
+ 
+.title-head{
+    
+    font-family: 'Taviraj', serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+.desc{
+    text-align: left;
+    font-size: 18px;
+    color: rgb(75, 73, 73);
+     
+}
+ 
+
+@media only screen and (max-width: 420px) {
+    .img{
+        height: 16rem;
+        width: 18rem;
+        object-fit: contain;
+        cursor:default;
+        margin-left: 10px;
+         
+    }
+    .desc{
+        text-align: left;
+        font-size: 17px;
+        width: 300px;
+    }
+    .title-head{
+    
+        font-family: 'Taviraj', serif;
+        font-weight: bold;
+        font-size: 26px;
+    }
+     
+  }
