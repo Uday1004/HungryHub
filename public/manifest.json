@@ -7,7 +7,7 @@
   "background_color": "#ffffff",
   "theme_color": "#007bff",
   "splash_screen": {
-    "images": [
+    "icon": [
       {
         "src": "public/maskable_icon.png",
         "sizes": "512x512",
