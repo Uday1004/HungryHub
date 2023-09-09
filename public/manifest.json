@@ -6,16 +6,16 @@
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#007bff",
-  "splash_screen": {
-    "icon": [
-      {
-        "src": "public/maskable_icon.png",
-        "sizes": "512x512",
-        "type": "image/png",
-        "purpose": "any maskable"
-      }
-    ],
-    "color": "#007BFF"
-  }
+  "icon": [
+    {
+      "src": "public/maskable_icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "color": "#007BFF"
+   
+  
 
 }
