@@ -8,6 +8,7 @@ import Contact from './components/Contact/Contact';
 import { Routes, Route } from "react-router-dom";
 import Home from './components/Home';
 import About from './components/About/About';
+import Feedback from './components/Feedback/Feedback';
 
 
 
@@ -32,6 +33,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/cart" element={showCart && <Carts />} />
         <Route path="/about" element={<About/>} />
+        <Route path="/feedback" element={<Feedback/>} />
       </Routes>
 
       <Footer />
